@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the exact release."
+title: "CUMCM 2026 Problem C Rolling Microgrid Dispatch"
+type: software
+version: 0.1.0
+date-released: 2026-09-14
+authors:
+  - name: "cumcm26_bc contributors"
+license: MIT
+

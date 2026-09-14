@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cumcm26-microgrid"
+version = "0.1.0"
+description = "Reproducible rolling microgrid purchasing and storage dispatch models"
+readme = "README.en.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = [
+  "numpy>=2.0,<3",
+  "scipy>=1.13,<2",
+  "pandas>=2.2,<3",
+  "openpyxl>=3.1,<4",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8,<10",
+]
+reproduce = [
+  "matplotlib>=3.9,<4",
+  "pulp>=3,<4",
+]
+
+[tool.setuptools.packages.find]
+include = ["c_grid*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+

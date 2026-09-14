@@ -1,0 +1,22 @@
+{
+  "planned_cost_yuan": 13742123.529168498,
+  "incremental_cost_yuan": 289893.7560537295,
+  "cancellation_credit_yuan": 279170.12046535325,
+  "emergency_cost_yuan": 725308.119271585,
+  "total_cost_yuan": 14478155.28402846,
+  "emergency_kwh": 201075.10565451183,
+  "planned_kwh": 22469598.37714476,
+  "adjusted_kwh": 21914451.33358684,
+  "charge_kwh": 7304776.845667948,
+  "discharge_kwh": 5916934.566031637,
+  "initial_soc": 10799.713569,
+  "final_soc": 10727.134634999999,
+  "milp_fallbacks": 0,
+  "emergency_days": 325,
+  "p95_daily_emergency_kwh": 2995.3574242485906,
+  "max_balance_residual_kwh": 4.547473508864641e-13,
+  "max_storage_residual_kwh": 5.9117155615240335e-12,
+  "name": "q3",
+  "days": 334,
+  "elapsed_seconds": 315.25426952199996
+}

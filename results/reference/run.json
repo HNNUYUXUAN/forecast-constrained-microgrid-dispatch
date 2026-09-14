@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "completed_scenarios": 39,
+  "expected_scenarios": 39,
+  "evaluation_start": "2025-02-01",
+  "evaluation_days": 334,
+  "source_commit": "d723b8f",
+  "source_fingerprint": "1a4db14720137fcd75c5ad3496fb46c1ab4ea01324aa56170206aacd7066f22e",
+  "runtime": {
+    "operating_system": "Linux",
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "workers": 16
+  }
+}
+

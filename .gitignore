@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Environments and local configuration
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.conda/
+
+# Official contest inputs are obtained by users from the official source.
+c_grid/attachments/*
+!c_grid/attachments/README.md
+
+# Generated results and local scratch files
+outputs/
+tmp/
+*.tmp
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
